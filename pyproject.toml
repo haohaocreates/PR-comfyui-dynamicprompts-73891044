@@ -1,9 +1,15 @@
 [project]
 name = "ComfyUI - Dynamic Prompts"
+description = "A custom node library that provides nodes that enable the use of Dynamic Prompts in your ComfyUI."
 version = "0.2.1"
 dependencies = [
     "dynamicprompts[attentiongrabber,magicprompt]~=0.30.2",
 ]
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/storyicon/comfyui_segment_anything"
+#  Used by Comfy Registry https://comfyregistry.org
 
 [tool.ruff]
 target-version = "py310"
@@ -24,3 +30,8 @@ ignore = [
 unfixable = [
     "B007", # Loop control variable not used within the loop body
 ]
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui_segment_anything"
+Icon = ""
