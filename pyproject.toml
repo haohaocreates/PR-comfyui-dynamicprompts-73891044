@@ -8,7 +8,7 @@ dependencies = [
 license = "LICENSE"
 
 [project.urls]
-Repository = "https://github.com/storyicon/comfyui_segment_anything"
+Repository = "https://github.com/adieyal/comfyui-dynamicprompts"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.ruff]
